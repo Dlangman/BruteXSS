@@ -86,7 +86,7 @@ class BruteXSS(object):
 
                 url = site
                 paraname =[]
-                wordlist = 'wordlist.txt'
+                wordlist = 'XSS_payload/wordlist.txt'
 
                 payloads = []
                 self.wordlistimport(wordlist,payloads) #把payload放进[]里
